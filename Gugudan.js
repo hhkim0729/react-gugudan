@@ -45,6 +45,7 @@ const Gugudan = () => {
           value={value}
           onChange={onInputChange}
           className="answer"
+          required
         ></input>
       </form>
       <div className="result">{result}</div>

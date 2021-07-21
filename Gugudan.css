@@ -1,0 +1,48 @@
+.gugudan {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.score {
+  font-size: 5vh;
+  margin-bottom: 2vh;
+  text-transform: uppercase;
+}
+
+.gugudan-form {
+  margin-bottom: 3vh;
+}
+
+.question {
+  font-size: 10vh;
+  font-weight: bold;
+}
+
+.answer {
+  background-color: transparent;
+  border: none;
+  border-bottom: 5px solid black;
+  font-size: 10vh;
+  width: 20vh;
+  text-align: center;
+  font-weight: bold;
+  color: cadetblue;
+}
+
+.answer::-webkit-outer-spin-button,
+.answer::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.answer:focus {
+  outline: none;
+}
+
+.result {
+  font-size: 8vh;
+}

@@ -22,7 +22,7 @@ const Gugudan = () => {
       setValue('');
       setScore(score + 1);
     } else {
-      setResult('🤔');
+      setResult('🤡');
       setValue('');
       setScore(score - 1);
     }
